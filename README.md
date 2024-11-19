@@ -2,7 +2,7 @@
 
 ## **TL;DR**
 
-1. **Pulled Data**: Customer service-related data (e.g., call durations, satisfaction ratings, costs, and regions) from Kaggle.
+1. **Pulled Data**: Customer service-related data (Call center dataset with call durations, satisfaction ratings, costs, and regions) from Kaggle.
 2. **Cleaned and Transformed Data**:
    - Addressed missing values by imputing averages for `duration` and `Satisfaction rating`.
    - Removed duplicates and irrelevant columns.
