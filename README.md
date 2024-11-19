@@ -1,5 +1,24 @@
 # **Netflix Customer Service Analysis Project**
 
+## **TL;DR**
+
+1. **Pulled Data**: Customer service-related data (e.g., call durations, satisfaction ratings, costs, and regions) from Kaggle.
+2. **Cleaned and Transformed Data**:
+   - Addressed missing values by imputing averages for `duration` and `Satisfaction rating`.
+   - Removed duplicates and irrelevant columns.
+3. **Data Modeling**:
+   - Loaded the cleaned data into SQLite (`netflix_cs.db`).
+   - Queried and aggregated key metrics by region, topic, and cost.
+4. **Data Export**:
+   - Exported aggregated results to `summary_report.csv` for visualization.
+5. **Visualization and Insights**:
+   - Created interactive dashboards in Power BI with bar charts, pie charts, and KPIs.
+   - Derived business insights like average call duration, ticket distribution, and cost analysis.
+6. **Final Deliverables**:
+   - A comprehensive Power BI dashboard.
+   - A README.md summarizing the project with supporting data files.
+
+
 ## **Netflix Customer Service Analysis Project Objective**
 The purpose of this project was to simulate a Netflix Business Analyst role for Customer Service (CS), focusing on analyzing operational metrics to derive actionable insights for improving efficiency and customer satisfaction. This project leverages a real-world dataset to demonstrate data collection, cleaning, modeling, querying, and visualization, culminating in a professional Power BI dashboard.
 
